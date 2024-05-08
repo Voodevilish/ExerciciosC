@@ -7,10 +7,10 @@ int main()
 
     do
     {
-        printf("Digite um numero: ")
+        printf("Digite um numero: ");
         scanf("%d", &n);
         printf("\nEste numero eh impar. \nTente novamente.\n");
     }
     while (n % 2 != 0);
-    
+
 }
